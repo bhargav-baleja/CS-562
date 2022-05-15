@@ -1,0 +1,10 @@
+SQL:
+SELECT cust, prod, avg(quant), max(quant)
+FROM sales
+GROUP BY cust,prod
+
+EMF:
+SELECT cust, prod, avg(1.quant), max(1.quant)
+FROM sales
+GROUP BY cust, prod; 1
+SUCH THAT 1.cust = cust AND 1.prod = prod
