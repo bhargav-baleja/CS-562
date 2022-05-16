@@ -1,4 +1,4 @@
-# Authors: Bhargav Baleja and Vishal Manjunath
+# Authors: Bhargav Baleja(10469548) and Vishal Manjunath(10457934)
 
 # Dependencies: Ensure sure that the py-postgresql, and PrettyTable modules are installed, the dbConfig dictionary in the 
 # databaseConfig.py file is updated with the credentials needed to connect to your database. A sql file to create the sales table
